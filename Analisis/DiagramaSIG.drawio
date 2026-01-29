@@ -1,0 +1,196 @@
+<mxfile host="65bd71144e">
+    <diagram name="Página-1" id="zN9hm1cgtJDHe3FHeqMK">
+        <mxGraphModel dx="1240" dy="1368" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="#000000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="start" value="PAGINA PRINCIPAL&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="20" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="login" value="LOGIN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="120" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="start" target="login" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="role_alumno" value="ALUMNO" style="rhombus;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="240" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="role_docente" value="DOCENTE" style="rhombus;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="240" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="role_admin" value="ADMINISTRATIVO" style="rhombus;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="240" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="role_egr" value="EGRESADO" style="rhombus;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="240" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="c1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;strokeColor=#FFFFFF;" parent="1" source="login" target="role_alumno" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="820" y="210"/>
+                            <mxPoint x="360" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;strokeColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="login" target="role_docente" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="820" y="210"/>
+                            <mxPoint x="710" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;strokeColor=#FFFFFF;" parent="1" source="login" target="role_admin" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="820" y="210"/>
+                            <mxPoint x="970" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;strokeColor=#FFFFFF;" parent="1" source="login" target="role_egr" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="820" y="210"/>
+                            <mxPoint x="1260" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="al_sicei" value="SICEI INTEGRADO&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;-Kardex&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;-Calificaciones&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;-Historial&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="380" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="al_ext" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;PLATAFORMAS EXTERNAS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;-UADY Virtual&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;-Ingles&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="380" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="al_psico" value="MÓDULO ATENCIÓN&lt;br&gt;PSICOLÓGICA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="470" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="al_const" value="SOLICITUD CONSTANCIAS&lt;br&gt;-Sin necesidad de Microsoft Forms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="380" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="al_pago" value="PAGO DIGITAL&lt;br&gt;-integrado" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="470" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="al_track" value="SEGUIMIENTO ESTATUS&lt;br&gt;- A tiempo real" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="560" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ca1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="role_alumno" target="al_sicei" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ca2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="role_alumno" target="al_ext" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ca3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="role_alumno" target="al_const" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ca4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="al_ext" target="al_psico" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ca5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="al_const" target="al_pago" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ca6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="al_pago" target="al_track" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="doc_grupo" value="GESTIÓN DE GRUPOS&lt;br&gt;Y CAPTURA DE CALIFICACIONES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="380" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="doc_comms" value="COMUNICACIÓN&lt;br&gt;CON ALUMNOS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="470" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="doc_avisos" value="CONSULTA DE AVISOS&lt;br&gt;INSTITUCIONALES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="560" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cd1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="role_docente" target="doc_grupo" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="cd2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="doc_grupo" target="doc_comms" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="cd3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="doc_comms" target="doc_avisos" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="adm_ctrl" value="MODULO DE CONTROL ESCOLAR&lt;div&gt;&lt;br&gt;-Gestión Trámites&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="380" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="adm_pagos" value="ADMINISTRACIÓN&lt;br&gt;DE PAGOS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="470" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="adm_rep" value="GENERACIÓN DE&lt;br&gt;REPORTES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="560" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cad1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="role_admin" target="adm_ctrl" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="cad2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="adm_ctrl" target="adm_pagos" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="cad3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="adm_pagos" target="adm_rep" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="egr_titu" value="TRÁMITES TITULACIÓN&lt;br&gt;Y CONSTANCIAS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="380" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="egr_cred" value="SOLICITUD CREDENCIAL&lt;br&gt;JAGUAR UADY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="470" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="egr_bolsa" value="BOLSA DE TRABAJO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="380" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="egr_egel" value="CURSOS PREPARACIÓN&lt;br&gt;EGEL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="470" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ceg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="role_egr" target="egr_titu" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ceg2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="role_egr" target="egr_bolsa" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ceg3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="egr_titu" target="egr_cred" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ceg4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="egr_bolsa" target="egr_egel" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="end" value="CERRAR SESIÓN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232323;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="720" y="720" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="fin1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;entryX=0;entryY=0.5;" parent="1" source="al_sicei" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="220" y="680"/>
+                            <mxPoint x="700" y="680"/>
+                            <mxPoint x="700" y="745"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fin2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;entryX=0;entryY=0.5;" parent="1" source="al_track" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="580" y="745"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fin3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;entryX=0.5;entryY=0;" parent="1" source="doc_avisos" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fin4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;entryX=0.75;entryY=0;" parent="1" source="adm_rep" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="970" y="660"/>
+                            <mxPoint x="870" y="660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fin5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FFFFFF;entryX=1;entryY=0.5;" parent="1" source="egr_egel" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1370" y="745"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
